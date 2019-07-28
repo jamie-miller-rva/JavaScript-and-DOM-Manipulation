@@ -1,2 +1,2 @@
 # JavaScript-and-DOM-Manipulation
-This project uses JavaScript, HTML, and CSS, and D3.js to create a dynamically based table to serve up a dataset on a web page. The page offers users the option to filter the table data for specific values.
+This project uses JavaScript, HTML, CSS, and D3.js to serve up a dataset on a web page conatining a dynamically based table. The page offers user an option to filter the table data for specific values (dates).
