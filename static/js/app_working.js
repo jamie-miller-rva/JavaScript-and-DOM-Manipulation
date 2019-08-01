@@ -101,7 +101,7 @@ filterButtonState.on("click", function(){
     // Create a custom filtering function for searchState
     function filterTableState(ufoReport) {
         // select the searchState
-        return ufoReport.State == searchStateValue;
+        return ufoReport.state == searchStateValue;
     }
     // If the searchState is not blank filter data using the filterTableState function
     if (searchStateValue != ''){
