@@ -39,6 +39,7 @@
               <div class="panel-heading">Filter Sightings:</div>
               <div class="panel-body">
                 <form>
+
                   <div class="form-group">
                     <ul class="list-group" id="filters-date">
                       <li class="filter list-group-item">
@@ -47,7 +48,8 @@
                       </li>                                                                           
                     </ul>
                   </div>
-                  <button id="filter-btn-date" type="button" class="btn btn-default">Filter Table by Date</button>
+                  <button id="filter-btn-date" type="button" class="btn btn-default">Filter by Date</button>
+
                   <div class="form-group">
                     <ul class="list-group" id="filters-state">
                       <li class="filter list-group-item">
@@ -56,7 +58,17 @@
                       </li>                                                                           
                     </ul>
                   </div>
-                  <button id="filter-btn-state" type="button" class="btn btn-default">Filter Table by State</button>
+                  <button id="filter-btn-state" type="button" class="btn btn-default">Filter by State</button>
+                  
+                  <div class="form-group">
+                    <ul class="list-group" id="filters-shape">
+                      <li class="filter list-group-item">
+                        <label for="date">Enter a Filter Shape</label>
+                        <input class="form-control" id="shape-1" type="text" placeholder="triangle">
+                      </li>                                                                           
+                    </ul>
+                  </div>
+                  <button id="filter-btn-shape" type="button" class="btn btn-default">Filter by Shape</button>
                 </form>
               </div>
             </div>
